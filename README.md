@@ -36,7 +36,8 @@ making a chatbot with a PHP backend
 * then make it global:  https://getcomposer.org/doc/00-intro.md#globally
 * Checkout the packages you want to install here: https://packagist.org/
 * if you run the `composer global require "laravel/installer"` and you get an error. 
-* try this: `sudo apt-get install php7.0-zip`
+* try this: `sudo apt-get install php7.0-zip` then run the `composer global require "laravel/installer"` again
+* 
 
 
 
