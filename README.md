@@ -41,6 +41,13 @@ making a chatbot with a PHP backend
 * for ubuntu 16 it's:`echo 'export PATH="~/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc`
 * in the terminal type: `php artisan` this is the laravel command line utility
 * to start a new laravel installation type: `laravel new blog`
+* to start the webpage run: `php artisan serve`
+
+### if php artisan commands don't work
+* checkout: https://stackoverflow.com/questions/28468625/laravel-5-failed-opening-required-bootstrap-vendor-autoload-php
+* type in terminal: `sudo apt-get install php-mbstring php-dom`
+* and then: `composer install ` then try it again
+
 
 
 
