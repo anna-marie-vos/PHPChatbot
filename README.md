@@ -59,6 +59,7 @@ making a chatbot with a PHP backend
 * check out: https://stackoverflow.com/questions/36276767/laravel-install-getting-key-generate-error-in-ubunto-os
 * in the terminal type: `cp .env.example .env`
 * then run: `php artisan key:generate` that should work
+* Note: the `php artisan key:generate` already places the key in the .env file so you dont have to do anything else. just restart the application. 
 
 
 
