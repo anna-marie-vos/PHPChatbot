@@ -23,3 +23,4 @@ making a chatbot with a PHP backend
 * to find modules for php, type: `apt-cache search php- | less`
 * to exit, type: q
 * You can see more information about a module by typing: `apt-cache show package_name`
+* to install pachages simply type: `sudo apt-get install package1 package2 `
