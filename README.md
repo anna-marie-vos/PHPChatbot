@@ -26,3 +26,4 @@ making a chatbot with a PHP backend
 * to install pachages simply type: `sudo apt-get install package1 package2 `
 * you must save php files here: `/var/www/html/`
 * type `sudo su` to get the right administration rights and your ready to start coding. 
+* to remove a file: `sudo rm /var/www/html/info.php`
