@@ -8,4 +8,5 @@ making a chatbot with a PHP backend
 
 ## Apache Commands:
 * to find your localhost, type: `sudo systemctl status apache2`
-* then type: `hostname -I
+* then type: `hostname -I`
+* then type the IP address in your browser. 
