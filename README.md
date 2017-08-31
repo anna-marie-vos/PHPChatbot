@@ -48,6 +48,9 @@ making a chatbot with a PHP backend
 * type in terminal: `sudo apt-get install php-mbstring php-dom`
 * and then: `composer install ` then try it again
 
+### server boots but you get the "oops something went wrong error" in the browser
+* you project folders go to "blog/config/app.php" and change the debug setting to true (in my case line 42)
+
 
 
 
