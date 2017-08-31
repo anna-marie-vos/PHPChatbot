@@ -27,3 +27,6 @@ making a chatbot with a PHP backend
 * you must save php files here: `/var/www/html/`
 * type `sudo su` to get the right administration rights and your ready to start coding. 
 * to remove a file: `sudo rm /var/www/html/info.php`
+* To set up PHPMyAdmin: https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts
+* To secure your web server: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
+* 
