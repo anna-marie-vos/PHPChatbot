@@ -38,7 +38,7 @@ making a chatbot with a PHP backend
 * if you run the `composer global require "laravel/installer"` and you get an error. 
 * try this: `sudo apt-get install php7.0-zip` then run the `composer global require "laravel/installer"` again
 * to export the Path, go to this website: https://stackoverflow.com/questions/25373188/laravel-installation-how-to-place-the-composer-vendor-bin-directory-in-your
-* `echo 'export PATH="~/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc`
+* for ubuntu 16 it's:`echo 'export PATH="~/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc`
 
 
 
