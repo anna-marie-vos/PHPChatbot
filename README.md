@@ -29,4 +29,9 @@ making a chatbot with a PHP backend
 * to remove a file: `sudo rm /var/www/html/info.php`
 * To set up PHPMyAdmin: https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts
 * To secure your web server: https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
-* 
+
+## Install laraval 
+* go to laravel and watch the get started vids: https://laracasts.com/series/laravel-from-scratch-2017/episodes/1
+* first install composer: https://getcomposer.org/download/
+* then make it global:  https://getcomposer.org/doc/00-intro.md#globally
+
