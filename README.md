@@ -24,3 +24,5 @@ making a chatbot with a PHP backend
 * to exit, type: q
 * You can see more information about a module by typing: `apt-cache show package_name`
 * to install pachages simply type: `sudo apt-get install package1 package2 `
+* you must save php files here: `/var/www/html/`
+* type `sudo su` to get the right administration rights and your ready to start coding. 
