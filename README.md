@@ -22,4 +22,4 @@ making a chatbot with a PHP backend
 ## PHP tips:
 * to find modules for php, type: `apt-cache search php- | less`
 * to exit, type: q
-* 
+* You can see more information about a module by typing: `apt-cache show package_name`
