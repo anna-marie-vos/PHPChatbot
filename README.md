@@ -53,6 +53,12 @@ making a chatbot with a PHP backend
 
 ### Error: RuntimeException : No application encryption key has been specified.
 * go to https://stackoverflow.com/questions/44839648/no-application-encryption-key-has-been-specified-new-laravel-app
+* go to https://laravel.com/docs/5.4/encryption
+
+### Error: [ErrorException]file_get_contents(/home/amv/Workspace/blog/.env): failed to open stream: No such file or directory
+* check out: https://stackoverflow.com/questions/36276767/laravel-install-getting-key-generate-error-in-ubunto-os
+* in the terminal type: `cp .env.example .env`
+* then run: `php artisan key:generate` that should work
 
 
 
