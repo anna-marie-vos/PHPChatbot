@@ -15,6 +15,11 @@ making a chatbot with a PHP backend
 * To restart the web server: `sudo systemctl restart apache2`
 * To reload the web server: `sudo systemctl reload apache2`
 
-## Installing MySQL:
+## MySQL setup:
 * make the root user password 'root'
 * to check or change security type: `mysql_secure_installation`
+
+## PHP tips:
+* to find modules for php, type: `apt-cache search php- | less`
+* to exit, type: q
+* 
