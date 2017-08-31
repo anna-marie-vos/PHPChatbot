@@ -17,3 +17,4 @@ making a chatbot with a PHP backend
 
 ## Installing MySQL:
 * make the root user password 'root'
+* to check or change security type: `mysql_secure_installation`
