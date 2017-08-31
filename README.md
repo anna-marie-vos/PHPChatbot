@@ -10,3 +10,7 @@ making a chatbot with a PHP backend
 * to find your localhost, type: `sudo systemctl status apache2`
 * then type: `hostname -I`
 * then type the IP address in your browser. 
+* To Stop the web server: `sudo systemctl stop apache2`
+* To Start the web server: `sudo systemctl start apache2`
+* To restart the web server: `sudo systemctl restart apache2`
+* To reload the web server: `sudo systemctl reload apache2`
