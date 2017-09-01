@@ -65,6 +65,7 @@ making a chatbot with a PHP backend
 * to create a database, go to the project directory and type: `mysql -uUserName -pPassword` replace UserName and Password with whatever it actually is.
 * to create a database: `create database DBNAME;`
 * to use the database: `use DBNAME;`
+* to show tables: `show tables;'
 
 
 
