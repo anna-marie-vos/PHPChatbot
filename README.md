@@ -76,6 +76,6 @@ making a chatbot with a PHP backend
 * download the ngrok for linux. Go to the downloads folder and extract it from the zip file. 
 * then copy it to the usr/bin file: `sudo cp ngrok /usr/bin/` 
 * then in terminal: `ngrok` and you'll get the info about ngrok. 
-* to serve the localhost: `ngrok http 8000` this makes the localhost live.
+* to serve the localhost type in terminal: `ngrok http 8000` this makes the localhost live.
 
 
