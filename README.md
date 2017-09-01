@@ -79,3 +79,6 @@ making a chatbot with a PHP backend
 * to serve the localhost type in terminal: `ngrok http 8000` this makes the localhost live.
 * facebook messenger needs https, so be sure to use the https link
 
+### Pimax/fb-messenger-php
+* helps to make connecting to facebook easier
+* https://github.com/pimax/fb-messenger-php
