@@ -66,6 +66,9 @@ making a chatbot with a PHP backend
 * to create a database: `create database DBNAME;`
 * to use the database: `use DBNAME;`
 * to show tables: `show tables;`
+* to connect the db to laravel, change the .env file
+* to migrate the db table type: `php artisan migrate`
+
 
 
 
