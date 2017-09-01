@@ -77,5 +77,5 @@ making a chatbot with a PHP backend
 * then copy it to the usr/bin file: `sudo cp ngrok /usr/bin/` 
 * then in terminal: `ngrok` and you'll get the info about ngrok. 
 * to serve the localhost type in terminal: `ngrok http 8000` this makes the localhost live.
-
+* facebook messenger needs https, so be sure to use the https link
 
