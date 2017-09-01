@@ -72,6 +72,10 @@ making a chatbot with a PHP backend
 ## CHATBOT
 ### Install ngrok: this is a development tunneling software.
 * this makes so that you can access localhost while developing and communicating with your chatbot.
+* https://ngrok.com/
+* download the ngrok for linux. Go to the downloads folder and extract it from the zip file. 
+* then copy it to the usr/bin file: `sudo cp ngrok /usr/bin/` 
+* then in terminal: `ngrok` and you'll get the info about ngrok. 
 
 
 
