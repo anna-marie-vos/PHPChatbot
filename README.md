@@ -69,6 +69,10 @@ making a chatbot with a PHP backend
 * to connect the db to laravel, change the .env file
 * to migrate the db table type: `php artisan migrate`
 
+## CHATBOT
+### Install ngrok: this is a development tunneling software.
+* this makes so that you can access localhost while developing and communicating with your chatbot.
+
 
 
 
