@@ -61,5 +61,9 @@ making a chatbot with a PHP backend
 * then run: `php artisan key:generate` that should work
 * Note: the `php artisan key:generate` already places the key in the .env file so you dont have to do anything else. just restart the application. 
 
+## Database
+* to create a database, go to the project directory and type: `mysql -uUserName -pPassword` replace UserName and Password with whatever it actually is.
+
+
 
 
