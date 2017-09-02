@@ -21,7 +21,8 @@ class MessengerController extends Controller
   // making the webhook_post function
   public function webhook_post()
   {
-    \Log::info('Message received');
+    $input = \Input::all();
+    \Log::info(print_r($input,1));
   }
 
 }
