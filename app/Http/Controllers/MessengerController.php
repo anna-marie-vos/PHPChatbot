@@ -27,6 +27,12 @@ class MessengerController extends Controller
     // Now we're making the bot using pimax\FbBotApp
     $token = env('PAGE_ACCESS_TOKEN');
     $bot = new FbBotApp($token);
+
+    $text = "Well hello friend";
+    $recipient = $input['entry'][0]['messaging'][0]['sender']['id'];
+    $message = new Message($recipient, $text);
+    \Log::info(print_r($message,1));
+    $bot->send($message);
   }
 
 }
