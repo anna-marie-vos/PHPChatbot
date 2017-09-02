@@ -84,3 +84,5 @@ making a chatbot with a PHP backend
 * https://github.com/pimax/fb-messenger-php
 * make a new route in the routes/web.php folder and call it: MessengerController@webhook
 * now to make the controller, type in terminal: `php artisan make:controller MessengerController`
+* this makes all the connections and adds a file in the app/http/MessengerController.php
+
