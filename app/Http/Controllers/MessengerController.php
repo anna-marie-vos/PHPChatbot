@@ -10,7 +10,13 @@ use pimax\Messages\Message;
 class MessengerController extends Controller
 {
   public function webhook(){
-    return "this is the webhook";
+    $local_verify_token = env('WEBHOOK_VERIFY_TOKEN');
+    $hub_verify_token = \Input::get('hub_verify_token');
+
+    if($local_verify_token == $hub_verify_token){
+        return \Input::get('hub_challenge');
+    }
+    else return "Bad verify token";
   }
     //
 }
