@@ -18,5 +18,10 @@ class MessengerController extends Controller
     }
     else return "Bad verify token";
   }
-    //
+  // making the webhook_post function
+  public function webhook_post()
+  {
+    \Log::info('Message received');
+  }
+
 }
